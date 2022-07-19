@@ -64,6 +64,7 @@ section
 	display:flex;
 	flex-direction: row;
 	justify-content: space-around;
+	align-items: center;
 }
 
 article
@@ -82,9 +83,10 @@ aside
 {
 	display:flex;
 	flex-direction: column;
-	align-items: center;
-	width: 20%;
+	align-items: center;	
 	background: grey;
+	border-radius: 10px;
+	width: 20%;
 }
 
 #Soupe_Logo
@@ -95,14 +97,22 @@ aside
 	
 }
 
-#photo_zozor
+#Soupe_Logo img
+{
+	width: 59px;
+    height: 60px;	
+}
+
+#photo_Laure
 {
     text-align: center;
 }
 
-#photo_zozor img
+#photo_Laure img
 {
     border: 1px solid #181818;
+/* 	width: 59px;
+    height: 60px; */
 }
 
 #logo_FI
@@ -117,4 +127,19 @@ aside
 	width: 59px;
     height: 60px;	
 }
-	
+
+#Photo_GA
+{
+	display: flex;
+	flex-direction: column;	
+	align-items: center;
+	width: 300px;
+    height: 220px;
+}
+
+#Photo_GA img
+{
+	margin: auto;
+	width: 300px;
+    height: 200px;
+}
