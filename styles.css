@@ -1,0 +1,120 @@
+body
+{
+	background: url("./images/light-bright-purple-background.png") fixed repeat;
+}
+
+#TitrePrincipal
+{
+	display: flex;
+	flex-direction: row;        
+}
+
+#TitreArticle
+{
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#bloc_page
+{
+	display: flex;
+	flex-direction: column;        
+	justify-content: center;	
+}
+
+#banniere
+{
+	display:flex;
+	justify-content: center;
+	align-self: center;
+}
+
+header
+{		
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;	
+}
+
+nav
+{
+	align-self: flex-end;
+}
+
+nav ul
+{
+	list-style-type: none;
+    display: flex;	
+}
+
+nav li
+{
+	margin: 15px;
+}
+
+#logo_poing img
+{
+	width: 59px;
+    height: 60px;
+}
+
+section
+{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+article
+{
+	display:flex;
+	flex-direction: column;
+	width: 60%;
+}	
+
+article p, section p
+{
+	text-align: justify;
+}
+
+aside
+{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	width: 20%;
+	background: grey;
+}
+
+#Soupe_Logo
+{
+	display:flex;
+	flex-direction: row;
+	justify-content: space around;
+	
+}
+
+#photo_zozor
+{
+    text-align: center;
+}
+
+#photo_zozor img
+{
+    border: 1px solid #181818;
+}
+
+#logo_FI
+{
+	flex-direction: column;
+	text-align: left;
+	align-items: center;
+}	
+
+#logo_FI img
+{
+	width: 59px;
+    height: 60px;	
+}
+	
