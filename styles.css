@@ -3,11 +3,41 @@ body
 	background: url("./images/light-bright-purple-background.png") fixed repeat;
 }
 
+header
+{		
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;	
+}
+
 #TitrePrincipal
 {
 	display: flex;
 	flex-direction: row;        
 }
+
+#logo_poing img
+{
+	width: 59px;
+	height: 60px;
+}
+
+nav
+{
+	align-self: flex-end;
+}
+
+nav ul
+{
+	list-style-type: none;
+    display: flex;	
+}
+
+nav li
+{
+	margin: 15px;
+}
+
 
 #TitreArticle
 {
@@ -30,34 +60,11 @@ body
 	align-self: center;
 }
 
-header
-{		
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;	
-}
 
-nav
-{
-	align-self: flex-end;
-}
 
-nav ul
-{
-	list-style-type: none;
-    display: flex;	
-}
 
-nav li
-{
-	margin: 15px;
-}
 
-#logo_poing img
-{
-	width: 59px;
-    height: 60px;
-}
+
 
 section
 {
@@ -89,23 +96,23 @@ aside
 	width: 20%;
 }
 
-#Soupe_Logo
+#LiensRS
 {
 	display:flex;
 	flex-direction: row;
-	justify-content: space around;
+	justify-content: space-around;
 	
 }
 
-#Soupe_Logo img
+#LiensRS img
 {
 	width: 59px;
-    height: 60px;	
+	height: 60px;	
 }
 
 #photo_Laure
 {
-    text-align: center;
+	text-align: center;
 }
 
 #photo_Laure img
@@ -142,4 +149,38 @@ aside
 	margin: auto;
 	width: 300px;
     height: 200px;
+}
+
+
+
+footer
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	border: solid black;
+
+} 
+
+#ListeAmis
+{
+	align-self: center;
+}
+
+#ListeAmis ul
+{
+	list-style-type: none;
+    	display: flex;	
+    	flex-direction: column;
+}
+
+#ListeAmis li
+{
+	margin: 15px;
+}
+
+#ListeAmis img
+{
+	width: 20px;
+    height: 20px;
 }
